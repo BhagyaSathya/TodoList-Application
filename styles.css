@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(50, 11, 87);
+    height: 100vh; 
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+    padding-right: 35px; 
+    display: flex;
+    justify-content: center;
+    align-self:center;
+}
+
+.todo-container{
+    background-image: url("https://wallpapercave.com/wp/wp6028521.jpg");
+    background-size: cover;
+    height: 80vh;
+    width: 400px;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-self:center;
+}
+
+.main-heading{
+    color: #950370;
+    font-family: cursive;
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 33px;
+}
+
+
+.head{
+    color: #430771;
+    font-family: "Roboto";
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.todo-user-input{
+    border-radius: 5px;
+    height: 5vh;
+    width: 250px;
+    padding: 8px;
+    border: transparent;
+}
+.add-button{
+    background-color: rgb(108, 10, 100);
+    border: transparent;
+    padding: 8px;
+    border-radius: 5px;
+    color: #fff;
+    height: 5vh;
+    width: 50px;
+    margin-left: 5px;
+}
+.save-button{
+    background-color: rgb(108, 10, 100);
+    border: transparent;
+    padding: 8px;
+    border-radius: 5px;
+    color: #fff;
+    height: 5vh;
+    margin-top: 10px;
+}
+
+.unorder-container{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.checkbox-input {
+    width: 22px;
+    height: 22px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+  
+
+.label-container {
+    background-color: #892aac;
+    width: 220px;
+    border-width: 5px;
+    padding: 5px;
+    height: 6vh;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: flex;
+    flex-direction: row;
+}
+  
+.checkbox-label {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    width: 82%;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+  
+.delete-icon-container {
+    text-align: right;
+    width: 18%;
+}
+  
+.delete-icon {
+    padding: 15px;
+    background-color: rgb(228, 136, 221);
+    border-radius: 50px;
+    font-size: 2vh;
+    color: rgb(49, 47, 47);
+}
+.checked{
+    text-decoration: line-through;
+}
